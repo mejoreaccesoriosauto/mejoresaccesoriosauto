@@ -19,6 +19,7 @@ texture:
   style: black
   showNav: false
   showPicker: false
+  analytics_id: G-R9KNJGMPJB
 
   # generate social links in footer
   social_links:
