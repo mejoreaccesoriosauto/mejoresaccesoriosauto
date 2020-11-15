@@ -256,3 +256,21 @@ header {
 	}
 }
 
+.footer {
+	background-color:#2d2e2d;
+	color: white;
+	
+	&__content{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding-top: 60px;
+		padding-bottom: 60px;
+		&-about {
+			cursor: pointer;
+		}
+
+	}
+}
+
