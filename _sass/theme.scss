@@ -103,7 +103,7 @@ header {
 //
 .container {
 	margin:0 150px;
-	max-width: 720px;
+	max-width: 1000px;
 
 	div.highlighter-rouge {
 		right: 150px;
@@ -259,7 +259,7 @@ header {
 .footer {
 	background-color:#2d2e2d;
 	color: white;
-	
+
 	&__content{
 		display: flex;
 		flex-direction: column;

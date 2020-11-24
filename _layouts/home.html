@@ -4,6 +4,7 @@ layout: page
 {%- if site.posts.size > 0 -%}
 <ul class="posts">
 	{%- for post in site.posts -%}
+	{%- if post.url != '/posts/acerca-de/' -%}
 	<li>
 		{%- assign date_format = site.minima.date_format | default: "%d/%m/%Y" -%}
 		<div class="post-meta">
@@ -11,13 +12,18 @@ layout: page
 				<h2 class="post-title">{{ post.title | escape }}</h2>
 			</a>
 			<div class="post-date"><i class="icon-calendar"></i>{{ post.date | date: date_format }}</div>
+			
 		</div>
 		<div class="post">
-			{%- if site.show_excerpts -%}
+			{{ post.content | strip_html | truncatewords: 40 }}
+			
+			<!-- {%- if site.show_excerpts -%}
 			{{ post.excerpt }}
-			{%- endif -%}
+			{%- endif -%} -->
+			 
 		</div>
 	</li>
+	{%- endif -%}
 	{%- endfor -%}
 </ul>
 {%- endif -%}
