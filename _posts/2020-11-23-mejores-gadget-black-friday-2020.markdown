@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Mejores gadget coche black friday 2020
-description: Los 10 mejoes gadget de coche para comprar este black friday 2020
+description: Los 10 mejores gadget de coche para comprar este black friday 2020
 date:   2020-11-23
 categories: Accesorios
 ---
