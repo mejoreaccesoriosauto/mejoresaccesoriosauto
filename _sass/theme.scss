@@ -102,8 +102,8 @@ header {
 // Basic Container Class
 //
 .container {
-	margin:0 150px;
-	max-width: 1000px;
+	margin: 50px 150px;
+	// max-width: 1000px;
 
 	div.highlighter-rouge {
 		right: 150px;
@@ -259,12 +259,15 @@ header {
 .footer {
 	background-color:#2d2e2d;
 	color: white;
+	margin-top: auto; 
+	
 
 	&__content{
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
-		align-items: center;
+		// justify-content: center;
+		// align-items: center;
+		margin: 0 150px;
 		padding-top: 60px;
 		padding-bottom: 60px;
 		&-about {
